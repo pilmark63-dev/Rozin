@@ -8,6 +8,7 @@
 body {
     font-family: 'MyFont', sans-serif;
     font-size: 16px;
+    background-color: rgb(228, 232, 235);
 }
 
 .navbar {
@@ -19,6 +20,9 @@ body {
     top: 0;
     position: sticky;
     box-shadow: 0 4px 10px rgba(82, 84, 28, 0.503);
+    border-radius: 7px;
+    overflow: hidden
+
 }
 
 .navbar .container {
@@ -42,7 +46,7 @@ body {
     text-decoration: none;
     opacity: 0.8;
     border-radius: 20px;
-    transition: 0.07s ease-in-out;
+    transition: 0.08s ease-in-out;
 }
 
 .navbar-menu li a:hover {
@@ -58,14 +62,22 @@ body {
     max-width: 760px;
     width: 100%;
     margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 3px 0 rgb(97, 97, 97);
+    border-radius: 10px;
+    overflow: hidden
+
 }
 
 .content p {
     padding-right: 20px;
     padding-left: 20px;
-    box-shadow: 0 5px 10px rgb(97, 97, 97);
+    line-height: 33px;
 }
 
-@media all   {
+.image {
+    width:100%;
+    max-width: 760px;
+}
 
 }
